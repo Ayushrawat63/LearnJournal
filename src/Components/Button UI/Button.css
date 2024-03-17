@@ -1,0 +1,14 @@
+.btn-class{
+    background-color: black;
+    padding: 10px 24px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-class a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+}

@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.margin{
+    margin: 0 1%;
+}
+
+#Home{
+    /* border:2px solid red; */
+    height: 100vh;
+}
+
+#Home #Nav{
+     /* background-color: rgb(63, 121, 247); */
+    /* color: white; */
+    margin-top: 2%;
+    height: 10vh;
+    position: relative;
+}
+
+#Home #Nav .logo
+{
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: 2%;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+.logo::after{
+    content: "Learn";
+}
+
+
+.list{
+    position: absolute;
+    top:20%;
+    left: 15%;
+    list-style: none;
+    /* border: 2px solid green; */
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+
+
+}
+.list li a{
+    text-decoration:none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.buy_btn
+{
+    position: absolute;
+    right: 5%;
+    top:10%;
+    background-color: black;
+    padding: 8px 35px;
+   
+    font-size: 1.2rem;
+    font-weight: bolder;
+   color: white;
+    border-radius: 25px;
+}
+.buy_btn:hover{
+    cursor:pointer
+}
+
+#Home #Main_content
+{
+    /* border: 2px solid black; */
+    height: 90vh;
+    display:  flex;
+    justify-content: space-between;
+
+
+}
+/* .Home #Main_content div{
+    border: 2px solid yellow;
+    
+} */
+
+.special_Heading
+{
+    /* border: 2px solid red; */
+    margin-top: 3% ;
+    padding: 3% 2%;
+    width: 50%;
+}
+
+.special_Heading h1{
+    font-size: 1.8rem;
+    color: rgb(71, 71, 71);
+    font-weight: 100;
+    line-height: 100%;
+    margin-top: 1%;
+    /* border: 2px solid yellow; */
+}
+
+.special_Heading span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+     display: block;
+     width: 120%;
+    font-size: 4rem;
+    line-height: 120%;
+    font-weight: 500;
+    color: black;
+    /* text-transform: uppercase;text-decoration: underline; */
+    
+}
+.all-btn{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    width: 60%;
+
+
+}
+
+.Image{
+    /* border: 2px solid green; */
+    width: 40%;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-right: 2%;
+    
+}
+.Image img{
+    /* border: 2px solid violet; */
+    width: 400px;
+    height: 500px;
+    margin-top: -12%;
+    margin-left: 12%;
+}
+
+
+/* Second section => Introduction */
+
+#Intro{
+    /* border: 2px solid red; */
+    height: 100vh;
+}
+
+.Intro_heading{
+    /* border: 2px solid black; */
+    padding: 3%;
+}
+.topic{
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+
+.topic-content{
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: rgb(71, 71, 71);
+
+    /* letter-spacing: -1px; */
+}
+
+.course-feature{
+
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+   height: 20vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* border: 2px solid violet; */
+}
+
+.box span{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.box h1{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* section 3 what will you learn */
+
+
+.heading-section3{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: white;
+
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+}
+.small-container{
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+.small-container img{
+    height: 400px;
+    width: 400px;
+}
+
+.contaniner-content{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    padding: 4% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items :last baseline;
+
+}
+
+.contaniner-content h1{
+    font-size: 2.3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 120%;
+    /* width: 80%; */
+    letter-spacing:1.2px ;
+    margin-bottom: 4%;
+}
+
+.contaniner-content span{
+    font-size: 1.1rem;
+    line-height: 99%;
+    margin-bottom: 4%;
+    color: rgb(69, 69, 69);
+    /* color: #D3D3D3; */
+}
+
+.growth{
+    /* border: 2px solid green; */
+    background-color: white;
+    height: 100vh;
+    position: relative;
+}
+
+.growth-title{
+    font-size: 20rem;
+    opacity: 0.2;
+    color: rgb(69, 69, 69);   
+    position: absolute;
+    left:30%;
+    /* border: 2px solid rgb(246, 0, 246); */
+}
+
+.growth div {
+    position: absolute;
+    top:25%;
+    left:20%;
+    /* border: 2px solid green; */
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.growth div h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 3.4rem; 
+    color: black;  
+}
+
+
+.growth div span{
+    font-size: 2rem;
+    text-align: center;
+    width: 80%;
+    color: rgb(69, 69, 69);
+
+}
+
+/* section 4: Course Feature */
+
+#Feature{
+    /* border: 2px solid black; */
+    height: 70vh;
+    position: relative;
+}
+
+.Feature-heading{
+    font-size: 2.4rem;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+
+.feature-data{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 2%;
+}
+
+.card span{
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    width: 70%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* section 4 Footer */
+
+#footer{
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-left{
+    /* border: 2px solid red; */
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.footer-left h1{
+    color: white;
+    text-transform: uppercase;
+}
+.footer-heading span{
+    font-size: 1rem;
+    color: white;
+}
+.footer-links
+{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+    /* background-color: white; */
+}
+
+.link-card{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+}
+.link-card img{
+    height: 30px;
+    width: 30px;
+}
+
+
+.footer-right{
+    /* border: 2px solid green ; */
+    width: 40%;
+    height: 100%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   align-items: center;
+
+}
+
+.support {
+    color: white;
+
+}
+.contact{
+    color: white;;
+    display: flex;
+    flex-direction: column;
+   margin-right: 13%;
+}
